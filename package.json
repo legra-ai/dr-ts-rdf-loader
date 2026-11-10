@@ -69,7 +69,7 @@
         "string-to-stream": "^3.0.1"
     },
     "devDependencies": {
-        "@commitlint/cli": "^19.8.1",
+        "@commitlint/cli": "^21.2.4",
         "@commitlint/config-conventional": "^19.8.1",
         "@dataroadinc/versioning": "0.0.6",
         "@eslint/eslintrc": "^3.3.1",
