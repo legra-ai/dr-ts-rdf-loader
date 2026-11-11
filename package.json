@@ -69,9 +69,9 @@
         "string-to-stream": "^3.0.1"
     },
     "devDependencies": {
-        "@commitlint/cli": "^19.8.1",
-        "@commitlint/config-conventional": "^19.8.1",
-        "@dataroadinc/versioning": "0.0.6",
+        "@commitlint/cli": "^21.2.4",
+        "@commitlint/config-conventional": "^21.2.4",
+        "@dataroadinc/versioning": "0.0.7",
         "@eslint/eslintrc": "^3.3.1",
         "@eslint/js": "^9.32.0",
         "@rdfjs/types": "^2.0.1",
@@ -83,7 +83,7 @@
         "eslint-plugin-import": "^2.32.0",
         "globals": "^16.3.0",
         "husky": "^9.1.7",
-        "markdownlint-cli": "^0.45.0",
+        "markdownlint-cli": "^0.50.0",
         "prettier": "^3.6.2",
         "typescript": "^5.8.3",
         "vitest": "^3.2.4"
