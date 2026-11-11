@@ -7,6 +7,10 @@ updates:
       commit-message:
           prefix: build(deps)
       groups:
+          commitlint:
+              applies-to: version-updates
+              patterns:
+                  - "@commitlint/*"
           compatible:
               applies-to: version-updates
               update-types:
@@ -23,11 +27,10 @@ updates:
       commit-message:
           prefix: ci(deps)
       groups:
-          compatible:
+          shared-actions:
               applies-to: version-updates
-              update-types:
-                  - minor
-                  - patch
+              patterns:
+                  - "*"
           security:
               applies-to: security-updates
               patterns:
