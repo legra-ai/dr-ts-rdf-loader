@@ -86,7 +86,7 @@
         "markdownlint-cli": "^0.50.0",
         "prettier": "^3.6.2",
         "typescript": "^5.8.3",
-        "vitest": "^3.2.4"
+        "vitest": "^5.1.0"
     },
     "peerDependencies": {
         "@rdfjs/types": "^2.0.0"
