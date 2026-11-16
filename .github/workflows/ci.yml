@@ -107,6 +107,6 @@ jobs:
         runs-on: ubuntu-24.04
         permissions: {}
         steps:
-            - uses: legra-ai/github-actions/.github/actions/require-ci-success@3ace81c4ac6d64eb18bc1df4dd7248d8ff87b6e0
+            - uses: legra-ai/github-actions/.github/actions/require-ci-success@4f513e763cf79e620f670ceb4430fd8adfd06c7e
               with:
                   results: ${{ toJSON(needs) }}
